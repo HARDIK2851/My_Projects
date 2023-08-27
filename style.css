@@ -1,0 +1,169 @@
+/* To set background image and provide margin */
+
+body{
+    margin: auto;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+    /* background-image: url(https://wallpaperaccess.com/thumb/1411280.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+/* to set border on the main content */
+main{
+    border: solid #FBFF00 2px;
+    }
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+/* the logo is made up of icons and text so to show it as one word  */
+h1 p {
+    display: inline-block;
+    color: #FBFF00;
+    margin: 0;
+}
+
+/* To make navigation bar more attractive and center it  */
+nav{
+    margin: auto;
+    text-align: center;
+    word-spacing: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;  
+}
+
+/* to set the color of all subheadings */
+h2{
+    color: white;
+    font-style: italic;
+    margin: 20px;
+}
+
+/* to set color of navigation links */
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* to provide color change effect on navigation links when mouse cursor is placed on them */
+a:hover{
+    color: #FBFF00;
+}
+
+/* to give header background and fonts  */
+header{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-size: contain;
+    background-color: black;
+    background-image: url(https://thumbs.gfycat.com/FlatFancyBufflehead-max-1mb.gif);
+}
+
+img{
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+/* this will show shadow effect on the images when mouse cursor is placed on them */
+img:hover{
+    box-shadow: -10px 10px 20px blanchedalmond;
+    border-radius: 0px;
+    border: solid yellow 1px;
+}
+
+/* to display animes in one row */
+#topAnime section{
+    display: inline-block;
+    width: 30%;
+}
+
+#runningAnime section{
+    display: inline-block;
+    width: 45%;
+}
+
+/* to center animes within section  */
+section{
+    
+    text-align: center;
+
+}
+
+/* to give color to overview of wensite and anime detail */
+#overview{
+    color: #FBFF00;
+    margin: 10px 0px 40px 50px;
+    font-size: 2em;
+    padding: px;
+}
+
+.AnimeDetail{
+    color: #FBFF00;
+    font-size: 1.5em;
+    font-family: 'Gabriela', serif;
+}
+
+/* this wil set background color and  align content in center*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(28, 28, 39);
+}
+
+#headerNav{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.episode{
+    color: white;
+    font-size: 1.3em;
+}
+
+div{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h3{
+    color: #C285FF;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li{
+    margin-bottom: 15px;
+}
+
+footer nav a{
+    font-size: 15px;
+}
+
+footer section div{
+    display: inline-block;
+    width: 30%;
+}
+
+
