@@ -1,1 +1,1 @@
-# this is my resposinve site individual project
+# this is my resposinve site individual project.
